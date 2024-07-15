@@ -7,7 +7,7 @@ import joblib
 
 # ------------------------ Reading Data ------------------------
 
-data = pd.read_csv('Bitcoin_Data_2021.csv')
+data = pd.read_csv('bitcoin_data_2021.csv')
 print(data.head())
 
 data['Days'] = np.arange(len(data))
